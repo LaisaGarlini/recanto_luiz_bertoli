@@ -15,7 +15,7 @@
 </head>
 <body>
     <header>
-        <img src="{{ asset('images/logo.jpg') }}" alt="Logo do IPMMI Recanto Luiz Bertoli" style="width: 80px;">
+        <img src="{{ asset('images/logo_sem_fundo.png') }}" alt="Logo do IPMMI Recanto Luiz Bertoli" style="width: 80px;">
         <h1>IPMMI Recanto Luiz Bertoli</h1>
     </header>
     <div>
