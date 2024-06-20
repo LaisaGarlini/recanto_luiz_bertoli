@@ -15,6 +15,7 @@
             font-family: 'Dosis', sans-serif;
         }
     </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <title>@yield('title')</title>
 </head>
 
@@ -44,8 +45,8 @@
         <section id="conteudo">
             @yield('content')
         </section>
+
         <footer class="fixed-bottom">
-            <hr>
             <p>INSTITUTO DA PEQUENAS MISSIONÁRIAS DE MARIA IMACULADA - (47) 3543-0131 - Av Luiz Bertoli, 585, Rio
                 d'Oeste, SC, Brazil, 89180-000</p>
         </footer>
