@@ -23,13 +23,13 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <header style="background-color: #bfdbfe;">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="#">
                 <img src="{{ asset('images/logo_sem_fundo.png') }}" width="100" height="50"
                     class="d-inline-block align-top" alt="Logo do IPMMI Recanto Luiz Bertoli">
             </a>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse fs-4" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
                         <a class="nav-link" href="/home">Início</a>
@@ -43,16 +43,17 @@
                 </ul>
             </div>
         </nav>
+    </header>
 
 
-        <section id="conteudo">
-            @yield('content')
-        </section>
+    <section id="conteudo" style="height: calc(100vh - 110px); background-color: #eff6ff;">
+        @yield('content')
+    </section>
 
-        <footer class="fixed-bottom">
-            <p>INSTITUTO DA PEQUENAS MISSIONÁRIAS DE MARIA IMACULADA - (47) 3543-0131 - Av Luiz Bertoli, 585, Rio
-                d'Oeste, SC, Brazil, 89180-000</p>
-        </footer>
+    <footer class="fixed-bottom d-flex align-items-center" style="height: 5%; padding-left: 10px; background-color: #bfdbfe;">
+        <p class="m-0">INSTITUTO DA PEQUENAS MISSIONÁRIAS DE MARIA IMACULADA - (47) 3543-0131 - Av Luiz Bertoli, 585, Rio d'Oeste, SC, Brazil, 89180-000</p>
+    </footer>
+
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
