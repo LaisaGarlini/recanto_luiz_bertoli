@@ -73,6 +73,7 @@
                     <title>Placeholder</title>
                     <rect width="100%" height="100%" fill="var(--bs-secondary-color)" style=" font-size: 1.125rem; text-anchor: middle;-webkit-user-select: none;-moz-user-select: none;user-select: none;" />
                 </img>
+                <br>
                 <h2 class="fw-normal">Atividades Físicas</h2>
                 <p>Através da música os residentes são contagiados pela alegria dos compassados, estimulando as funções motoras, cognitivas, emocionais e físicas</p>
                 
@@ -84,6 +85,7 @@
                     <title>Placeholder</title>
                     <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
                 </img>
+                <br>
                 <h2 class="fw-normal">Estimulação Cognitiva</h2>
                 <p>Os jogos em geral desempenham um papel importante para adquirir conhecimentos, conceitos, estimulando a imaginação ajudando a promover o raciocínio lógico.</p>
                 <p></p>
@@ -95,6 +97,7 @@
                     <title>Placeholder</title>
                     <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
                 </img>
+                <br>
                 <h2 class="fw-normal">Fisioterapia</h2>
                 <p>A fisioterapia é crucial para idosos porque melhora o equilíbrio e a coordenação, prevenindo quedas, e ajuda na gestão da dor de condições crônicas, promovendo uma melhor qualidade de vida e independência..</p>
                
