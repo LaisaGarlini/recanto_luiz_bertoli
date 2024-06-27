@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ComentarioController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -17,3 +18,5 @@ Route::get('/sobre', function () {
 Route::get('/contato', function () {
     return view('contato', array("title"=>'Contato'));
 });
+
+Route::resource('comentario', ComentarioController::class);
