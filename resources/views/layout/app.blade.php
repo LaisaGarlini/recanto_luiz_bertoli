@@ -40,6 +40,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/contato">Contatos</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/comentario">Comentários/Feedback</a>
+                    </li>
                 </ul>
             </div>
         </nav>
