@@ -1,12 +1,21 @@
 @extends('layout.app')
 @section('title', $title)
 @section('content')
+<style>
+    h2,a {
+        margin: 5px;
+    }
 
-    <h2>{{ __("Comentários") }}</h2>
-    <br>
-    <a href="{{ url('comentario/create') }}" class="btn btn-primary mb-3">Criar Comentário</a>
+    #comentario{
+        margin: 5px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, .1);
+        border-radius: 20px;
+    }
+</style>
+<!-- <h2>{{ __("Comentários") }}</h2>
+<br>
 
-    <!-- <div class="table-responsive">
+ <div class="table-responsive">
         <table class="table table-striped">
             <thead>
                 <tr>
@@ -35,12 +44,13 @@
         </table>
     </div> -->
 
-    @foreach ($comentarios as $comentario)
-        <div class="m-2 p-2 border border-secondary">
-            <p><i>- {{ $comentario->nome }}</i></p>
-            <p>{{ $comentario->comentario }}</p>
-            <a href="{{ url('comentario/' . $comentario->id) }}" class="btn btn-sm btn-secondary">Ver</a>
-        </div>
-    @endforeach
-
+@foreach ($comentarios as $comentario)
+    <div class="m-2 p-2 border border-secondary" id="comentario">
+        <p><i>- {{ $comentario->nome }}</i></p>
+        <p>{{ $comentario->comentario }}</p>
+        <a href="{{ url('comentario/' . $comentario->id) }}" class="btn btn-sm btn-secondary">Ver</a>
+    </div>
+   
+@endforeach
+<a href="{{ url('comentario/create') }}" class="btn btn-primary mb-3">Criar Comentário</a>
 @endsection

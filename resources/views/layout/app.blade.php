@@ -15,6 +15,7 @@
     <style>
         body {
             font-family: 'Dosis', sans-serif;
+            
         }
         
     </style>
@@ -23,8 +24,8 @@
 </head>
 
 <body>
-    <header style="background-color: #bfdbfe;">
-        <nav class="navbar navbar-expand-lg navbar-light">
+    <header style="background-color: #bfdbfe; font-weight:500;">
+        <nav class="navbar navbar-expand-lg navbar-light" style="  box-shadow: 0 10px 20px rgba(0, 0, 0, .2);">
             <a class="navbar-brand" href="#">
                 <img src="{{ asset('images/logo_sem_fundo.png') }}" width="100" height="50"
                     class="d-inline-block align-top" alt="Logo do IPMMI Recanto Luiz Bertoli">
@@ -49,11 +50,11 @@
     </header>
 
 
-    <section id="conteudo" style="height: calc(100vh - 110px); background-color: #eff6ff;">
+    <section id="conteudo" style="height: calc(100vh - 110px);">
         @yield('content')
     </section>
 
-    <footer class="fixed-bottom d-flex align-items-center" style="height: 5%; padding-left: 10px; background-color: #bfdbfe;">
+    <footer class="fixed-bottom d-flex align-items-center" style="height: 5%; padding-left: 10px; background-color: #bfdbfe; ">
         <p class="m-0">INSTITUTO DA PEQUENAS MISSIONÁRIAS DE MARIA IMACULADA - (47) 3543-0131 - Av Luiz Bertoli, 585, Rio d'Oeste, SC, Brazil, 89180-000</p>
     </footer>
 
