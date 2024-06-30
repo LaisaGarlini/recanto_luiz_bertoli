@@ -36,7 +36,7 @@
                         <a class="nav-link" href="/home">Início</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/sobre">Sobre</a>
+                        <a class="nav-link" href="/doacao">Faça sua doação</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/contato">Contatos</a>

@@ -21,9 +21,7 @@
 <div class="full-width-container">
     <div class="half-width-column">
         <h1 class="featurette-heading fw-normal lh-1">Sobre <span class="text-body-secondary"></span></h1>
-        <p class="lead">Administrado pela Congregação das Pequenas Missionárias de Maria Imaculada o Recanto Luiz
-            Bertoli é um Instituto de Longa Permanência para Idosos – seu público alvo é idosos de 60 anos ou mais, de
-            ambos os sexos, com diversos graus de dependência.
+        <p class="lead">Pix solidário 
         </p>
     </div>
     <div class="half-width-column_mapa">

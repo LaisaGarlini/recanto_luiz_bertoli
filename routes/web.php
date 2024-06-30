@@ -11,8 +11,8 @@ Route::get('/home', function () {
     return view('home', array("title"=>'Home'));
 });
 
-Route::get('/sobre', function () {
-    return view('sobre', array("title"=>'Sobre'));
+Route::get('/doacao', function () {
+    return view('doacao', array("title"=>'doacao'));
 });
 
 Route::get('/contato', function () {
