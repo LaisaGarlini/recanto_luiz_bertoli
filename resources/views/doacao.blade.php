@@ -5,49 +5,40 @@
 <style>
     .full-width-container {
         width: 100%;
-        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
     }
     .half-width-column {
-        width: 48%;
-        float: left;
+        width: 80%; /* Ajuste a largura conforme necessário */
         padding: 15px;
     }
-    .half-width-column_mapa {
-        width: 52%;
-        height: 100%;
-        float: left;
+    .qr-code {
+        margin-top: 20px; /* Espaço adicional acima do QR Code */
+    }
+    .list-unstyled{
+        list-style-type: none; /* Remove os marcadores padrão das listas */
+        padding: 0; /* Remove o espaçamento interno padrão das listas */
     }
 </style>
+
 <div class="full-width-container">
     <div class="half-width-column">
-        <h1 class="featurette-heading fw-normal lh-1">Sobre <span class="text-body-secondary"></span></h1>
-        <p class="lead">Pix solidário 
+        <h1 class="featurette-heading fw-normal lh-1">PIX SOLIDÁRIO <span class="text-body-secondary"></span></h1>
+        <p class="lead">Ajude o IPMMI Recanto Luiz Bertoli através do Pix Solidário!<br>
+            Escaneie o QR Code ou utilize os dados bancários abaixo:
         </p>
-    </div>
-    <div class="half-width-column_mapa">
-        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" 
-            src="https://scontent.flaj2-1.fna.fbcdn.net/v/t39.30808-6/439026203_825547479606581_3355319321593237389_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Fp4RIKjPgDQQ7kNvgFZJTdK&_nc_ht=scontent.flaj2-1.fna&oh=00_AYD05M3_zgKMqs6WMSxkRf0yyTkIojnMEqjaPmliQquH4g&oe=667A8BB5"
-            role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+        <img src="http://127.0.0.1:8000/images/qrcode.png" alt="qr_code" width="300" height="300" class="qr-code">
+        <ul class="list-unstyled">
+            <li>Banco: Banco do Brasil</li>
+            <li>Agência: 2545-3</li>
+            <li>Conta Corrente: 10391-8</li>
+            <li>Titular: IPMMI Recanto Luiz Bertoli</li>
+        </ul>
+        <p>Você também pode ajudar com alimentos, produtos de higiene pessoal, agasalhos e roupa de cama.</p>
     </div>
 </div>
-
-<!-- <div class="row featurette">
-    <div class="col-md-7" style="padding: 15px;">
-        <h1 class="featurette-heading fw-normal lh-1">Sobre <span class="text-body-secondary"></span></h1>
-        <p class="lead">Administrado pela Congregação das Pequenas Missionárias de Maria Imaculada o Recanto Luiz
-            Bertoli é um Instituto de Longa Permanência para Idosos – seu público alvo é idosos de 60 anos ou mais, de
-            ambos os sexos, com diversos graus de dependência.
-        </p>
-    </div>
-    <div class="col-md-5">
-        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-            height="500"
-            src="https://scontent.flaj2-1.fna.fbcdn.net/v/t39.30808-6/439026203_825547479606581_3355319321593237389_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Fp4RIKjPgDQQ7kNvgFZJTdK&_nc_ht=scontent.flaj2-1.fna&oh=00_AYD05M3_zgKMqs6WMSxkRf0yyTkIojnMEqjaPmliQquH4g&oe=667A8BB5"
-            role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
-        <title>Placeholder</title>
-        <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%"
-            fill="var(--bs-secondary-color)" dy=".3em"></text></img>
-    </div>
-</div> -->
 
 @endsection
