@@ -12,15 +12,15 @@
         text-align: center;
     }
     .half-width-column {
-        width: 80%; /* Ajuste a largura conforme necessário */
+        width: 80%; 
         padding: 15px;
     }
     .qr-code {
-        margin-top: 20px; /* Espaço adicional acima do QR Code */
+        margin-top: 20px; 
     }
     .list-unstyled{
-        list-style-type: none; /* Remove os marcadores padrão das listas */
-        padding: 0; /* Remove o espaçamento interno padrão das listas */
+        list-style-type: none; 
+        padding: 0; 
     }
 </style>
 
