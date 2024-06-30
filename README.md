@@ -8,6 +8,22 @@
 > Projeto desenvolvido na matéria de Programação Web II do curso de Sistemas de Informação da UNIDAVI.
 <br>
 
+![image](https://github.com/LaisaGarlini/recanto_luiz_bertoli/assets/97294208/52057517-bb12-43ed-a1cf-0b7068689756)
+
+## Estrutura básica
+O projeto conta com quatro páginas principais, cada uma desempenhando um papel específico para facilitar a navegação e o acesso às informações sobre o instituto:
+
+ `Início/Home` Esta página apresenta as principais informações sobre o Instituto. Aqui, os visitantes podem aprender sobre a missão, a visão e os valores do instituto, além de conhecer os projetos e atividades em andamento.
+
+ `Faça sua doação` A página de doações fornece todas as informações necessárias para que os usuários possam contribuir financeiramente para o instituto. Inclui detalhes sobre as diferentes formas de doaçã.
+
+ `Contatos` Nesta página, os usuários encontram informações de contato detalhadas do instituto, incluindo endereço, número de telefone, e-mail e um mapa com a localização exata. Esta seção facilita a comunicação direta com o IPMMI para esclarecimentos, visitas e suporte.
+
+ `Comentários/Feedback` Integrada com um banco de dados MySQL, esta página permite que os usuários visualizem comentários e feedbacks de outros visitantes. Além disso, os usuários podem adicionar novos comentários, compartilhando suas experiências e sugestões, contribuindo para a melhoria contínua dos serviços e atividades do instituto.
+
+
+
+
 ## 🤝 Desenvolvedores
 
 As seguintes pessoas contribuíram para este projeto:
